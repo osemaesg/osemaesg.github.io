@@ -1,0 +1,60 @@
+#plan {
+    img {
+    width: 100%;
+    }
+}
+
+
+.tabs-container {
+    font-family: "Roboto", sans-serif;
+    max-width: 1200px;
+    min-height: 500px;
+    margin: 30px auto;
+    display: flex;
+    box-shadow: 0 4px 20px -8px rgba(0, 0, 0, 0.313);
+    .tabs {
+        width: 300px;
+        background-color: #707c47;
+        color: rgb(240, 240, 240);
+        text-transform: uppercase;
+        text-align: center;
+        .tab {
+            padding: 24px 32px;
+            background-color: #5D6F20;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.5s ease-out;
+        }
+        .active {
+            background-color: rgb(240, 240, 240);
+            color: #5D6F20;
+        }
+    }
+    .content-container {
+        width: 100%;
+        background-color: rgb(240, 240, 240);
+        .content.active {
+            height: 600px;
+            display: block;
+            background-color: rgb(240, 240, 240);
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+        .content {
+            display: none;
+            padding: 50px;
+            
+        }
+    }
+}
+.content .title {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 900;
+}
+.content li {
+    line-height: 2;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+}

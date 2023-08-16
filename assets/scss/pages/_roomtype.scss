@@ -1,0 +1,64 @@
+#roomType{
+    .title{
+        font-size: 50px;
+        word-break: break-all;
+        font-weight: 900;
+    }
+    p{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 1.8px;
+        padding: 10px;
+    }
+    .row > .column{
+        padding: 8px;
+    }
+    .row {
+        padding: 8px;
+        margin: 8px -16px;
+    }
+    .column{
+        float: left;
+        width: 50%;
+    }
+    img{
+        height: auto;
+        object-fit: cover;
+        transition: all 0.3s ease;
+    }
+    .title2{
+        font-size: 22px;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .title3{
+        padding: 0px 10px;
+        font-size: 18px;
+        font-weight: 600;
+        opacity: 0.7; 
+    }
+    p{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 1.8px;
+        padding: 10px;
+    }
+    .title4{
+        padding: 20px 10px;
+        font-size: 18px;
+        font-weight: 600;
+        opacity: 0.7;
+    }
+}
+.content{
+    background-color: #fff;
+    padding: 10px;
+}
+.titl,.titl1 {
+    display: flex;
+    img{
+        margin-top: 35px;
+        width: 5%;
+        margin: auto 10px;
+    }
+}

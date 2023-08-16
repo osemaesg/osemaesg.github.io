@@ -1,0 +1,86 @@
+.footer{
+  background: #69F0AE;
+  font-size: 64px;
+}
+#contact {
+  background-color: #ffffff;
+  padding: 100px 10%;
+  width: 100%;
+  display: flex;
+ 
+}
+.contactText {
+  background-color: #98a66c;
+  padding: 20px 30px;
+  width: 50%;
+  justify-self: start;
+  flex-direction: column;
+  .title {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 1.8px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  hr {
+      width: 30%;
+      color: white;
+      background-color: white;
+      margin-left: 0;
+  }
+  p{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+}
+#social {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 30px;
+  ul {
+    display: flex;
+    margin: 0px;
+    padding: 0;
+    li {
+      filter: brightness(1);
+      border-bottom: none;
+      margin-right: 20px;
+      display: block;
+    }
+    
+  }
+  .web {
+    background-image: url(https://www.shop1688.com.tw/sys/web.svg);
+  }
+  a{
+    opacity: 0.7;
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+  }
+}
+.map{
+  height: 350px;
+  width: 50%;
+}
+.copyright {
+  background-color: #ddd;
+  p{
+      text-align: center;
+      font-size: 12px;
+      margin: 5px 0px;
+      color: rgb(85, 74, 64);
+  }
+}

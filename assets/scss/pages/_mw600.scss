@@ -1,0 +1,230 @@
+@media screen and (max-width: 600px) {
+    section {
+        padding: 40px 0px;
+    }
+
+    .swiper {
+        padding-top: 80px;
+        height: 100%;
+    }
+
+    .navbar {
+        height: 80px;
+    }
+
+    .nav-container {
+        position: fixed;
+    }
+
+    .nav-menu {
+        display: grid;
+        grid-template-columns: auto;
+        background: var(--navbar);
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 0;
+        transition: all 0.5s ease;
+    }
+
+
+    #navbar-logo {
+        width: 150%;
+        margin-left: 20px;
+    }
+
+    .nav-menu.active {
+        background: var(--navbar);
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .nav-links {
+        text-align: center;
+        line-height: 60px;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-links:hover {
+        background-color: var(--navhover);
+        color: white;
+        transition: all 0.4s ease-out;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    #mobile-menu {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%);
+    }
+
+    .menu-toggle .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu-toggle:hover {
+        cursor: pointer;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(11px) rotate(45deg);
+    }
+
+    #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-5px) rotate(-45deg);
+    }
+
+    .photoItem {
+        width: 100%;
+    }
+
+    .aboutTitle {
+        height: 300px;
+    }
+
+    .aboutTitle p {
+        font-size: 20px;
+        width: 70%;
+        text-align: center;
+    }
+
+
+    .newsArea {
+        flex-wrap: wrap;
+    }
+
+    .newsItem {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .tabs-container .tabs {
+        width: 100%;
+    }
+
+    .tabs-container {
+        flex-direction: column;
+    }
+
+    .tabs-container .content-container .content.active {
+        height: 300px;
+    }
+
+    .tabs-container .content-container .content {
+        padding: 20px;
+    }
+
+    .content li {
+        font-size: 14px;
+    }
+
+    #roomType p {
+        font-size: 14px;
+        padding: 0px;
+    }
+
+    #roomType .title2 {
+        font-size: 24px;
+    }
+
+    #roomType .column {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #roomType .title3 {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+
+    #roomType .content2 img {
+        height: 300px;
+    }
+
+    #project .proArea {
+        flex-wrap: wrap;
+        margin: 50px 0px;
+    }
+
+    #project .projectItem {
+        width: 100%;
+    }
+
+    #project .swiper {
+        padding-top: 0px;
+    }
+
+    #contact {
+        //padding: 60px 30px;
+        flex-wrap: wrap;
+    }
+
+    .contactText {
+        width: 100%;
+        //padding: 25px 15px;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .contactText .title {
+        margin: 5px 0px;
+    }
+
+    .titl img {
+        width: 10%;
+        margin-top: 18px;
+    }
+
+    .titl1 img {
+        width: 10%;
+        margin-top: 18px;
+    }
+
+    #roomType .title2 {
+        font-size: 18px;
+    }
+
+    #roomType .title3 {
+        font-size: 15px;
+    }
+
+    #plan img {
+        width: 100%;
+    }
+
+    .newsItem {
+        width: 80%;
+        margin: 20px auto;
+        flex-direction: column;
+    }
+
+    #news .title {
+        margin-top: 0px;
+    }
+
+    .btn_group a {
+        width: 40%;
+    }
+
+    .banner .swiper {
+        width: 100%;
+        //height: 37vh;
+        margin-bottom: -40px;
+    }
+
+}

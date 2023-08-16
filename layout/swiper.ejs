@@ -1,0 +1,27 @@
+    <!-- Swiper -->
+    <div class="banner">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="lazyload" src="../assets/img/banner1.jpg" alt="banner">
+                </div>
+                <div class="swiper-slide">
+                    <img class="lazyload" src="../assets/img/banner2.jpg" alt="banner">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <!-- Initialize Swiper -->
+
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                autoplay: {
+                    delay: 5000,
+                    stopOnLastSlide: false,
+                    disableOnInteraction: false,
+                },
+                //loop: true,
+            });
+        </script>
+    
